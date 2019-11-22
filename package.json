@@ -1,0 +1,30 @@
+{
+  "name": "db4-challenge-pt",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac-smith-webtpt7/node-db4-challenge-pt.git"
+  },
+  "author": "Zac Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zac-smith-webtpt7/node-db4-challenge-pt/issues"
+  },
+  "homepage": "https://github.com/zac-smith-webtpt7/node-db4-challenge-pt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.2",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
